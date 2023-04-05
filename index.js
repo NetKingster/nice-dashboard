@@ -24,7 +24,7 @@ app.use(express.static('public'));
 app.set('view engine', 'ejs');
 
 
-// app.use(express.static(__dirname + 'public/views'));
+app.use(express.static(__dirname + 'public/views'));
 
 app.use(express.json());
 
