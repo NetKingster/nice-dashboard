@@ -7,10 +7,6 @@ const Model = require('../models/model');
 		res.render('index.ejs')
 	});
 
-	router.get('/register', (req, res)=>{
-		res.render('Register.ejs')
-	});
-
 //Post Method
 router.post('/post', async (req, res) => {
     const data = new Model({
