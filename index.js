@@ -7,7 +7,7 @@ const mongoString = process.env.DATABASE_URL;
 const app = express();
 const fs = require("fs");
 const path = require("path");
-// const ejs = require("ejs");
+const ejs = require("ejs");
 
 
 mongoose.connect(mongoString);
